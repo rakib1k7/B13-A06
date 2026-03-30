@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "Name": "ChatGPT",
+    "description": "Advanced conversational AI for writing, coding, and problem-solving.\nSupports multiple tasks with natural human-like responses.",
+    "price": 20,
+    "image": "https://i.ibb.co.com/3mJV4dqk/download.png",
+    "status": "popular",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": ["Conversational AI", "Code generation", "Content writing", "Multi-language support"],
+    "icon": "chat"
+  },
+  {
+    "id": 2,
+    "Name": "Midjourney",
+    "description": "AI-powered image generation tool for stunning artwork.\nCreates high-quality visuals from text prompts.",
+    "price": 10,
+    "image": "https://i.ibb.co.com/SDdHC5hm/download-1.png",
+    "status": "favourite",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Text-to-image", "High-resolution art", "Creative styles", "Discord integration"],
+    "icon": "image"
+  },
+  {
+    "id": 3,
+    "Name": "Grammarly",
+    "description": "AI writing assistant for grammar and clarity improvements.\nEnhances tone, style, and correctness.",
+    "price": 12,
+    "image": "https://i.ibb.co.com/CpXpV260/download-2.png",
+    "status": "popular",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": ["Grammar check", "Tone detection", "Plagiarism checker", "Browser extension"],
+    "icon": "edit"
+  },
+  {
+    "id": 4,
+    "Name": "Canva AI",
+    "description": "Design platform with AI tools for quick content creation.\nGenerate visuals, presentations, and social media posts.",
+    "price": 0,
+    "image": "https://i.ibb.co.com/Rkd26nQL/download-1.jpg",
+    "status": "mostwanted",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI design tools", "Templates library", "Background remover", "Text-to-image"],
+    "icon": "design"
+  },
+  {
+    "id": 5,
+    "Name": "Jasper AI",
+    "description": "AI content generator for marketing and business writing.\nHelps create blogs, ads, and social media content.",
+    "price": 49,
+    "image": "https://i.ibb.co.com/ZRgnGB3s/download-2.jpg",
+    "status": "favourite",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": ["Marketing templates", "SEO content", "Brand voice", "Team collaboration"],
+    "icon": "document"
+  },
+  {
+    "id": 6,
+    "Name": "Runway ML",
+    "description": "AI video editing and generation platform.\nCreate and edit videos with advanced machine learning tools.",
+    "price": 15,
+    "image": "https://i.ibb.co.com/k2S4pPqC/download-3.png",
+    "status": "mostwanted",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Video generation", "Green screen AI", "Motion tracking", "Real-time editing"],
+    "icon": "video"
+  },
+  {
+    "id": 7,
+    "Name": "Notion AI",
+    "description": "Productivity tool enhanced with AI capabilities.\nHelps write, summarize, and organize notes efficiently.",
+    "price": 10,
+    "image": "https://i.ibb.co.com/jvCc29yf/download-4.png",
+    "status": "popular",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Note summarization", "Task automation", "Content generation", "Workspace integration"],
+    "icon": "notes"
+  },
+  {
+    "id": 8,
+    "Name": "Synthesia",
+    "description": "AI video generator with realistic avatars.\nCreate professional videos without cameras or actors.",
+    "price": 30,
+    "image": "https://i.ibb.co.com/WWNcxrNd/download-3.jpg",
+    "status": "favourite",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": ["AI avatars", "Text-to-video", "Multi-language voiceovers", "Custom branding"],
+    "icon": "avatar"
+  }
+]
