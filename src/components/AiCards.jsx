@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { IoCheckmark } from "react-icons/io5";
 
 const AiCards = ({ premiumAiTools, cartData, setCartData }) => {
   const [isBuy, setBuy] = useState(false)

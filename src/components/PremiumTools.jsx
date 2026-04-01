@@ -8,7 +8,7 @@ const PremiumTools = ({ AiPromise, cartData, setCartData}) => {
   //   console.log(selectedBtn, "selectedBtn");
 
   return (
-    <div className="py-5">
+    <div className="">
       <div className="max-w-[1100px] mx-auto flex justify-center text-center items-center mt-8">
         <div className="space-y-3">
           <h1 className="text-3xl font-bold">Premium Digital Tools</h1>

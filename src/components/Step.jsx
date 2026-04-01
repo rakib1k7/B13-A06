@@ -14,8 +14,8 @@ const Step = () => {
       </div>
       <div className="grid grid-cols-3 gap-6">
         <div className=" shadow-lg">
-          <div className="absolute top-0 right-0 ">
-            <p className="bg-amber-400 ab font-bold p-1 ">01</p>
+          <div className="relative ">
+            <p className="bg-[#4F39F6] absolute right-2 top-2 rounded-3xl text-[15px] w-6 h-7 font-semibold p-1 ">01</p>
           </div>
           <div className=" flex flex-col justify-center items-center text-center py-6">
             <img className="justify-center items-center "
@@ -30,10 +30,10 @@ const Step = () => {
           </div>
         </div>
         <div className=" shadow-2xl">
-          <div className="absolute top-0 right-0 ">
-            <p className="bg-amber-400 ab font-bold p-1 ">01</p>
+          <div className="relative">
+            <p className="bg-[#4F39F6] absolute right-2 top-2 rounded-3xl text-[15px] w-6 h-7 font-semibold p-1 ">02</p>
           </div>
-          <div className=" flex flex-col justify-center items-center text-center py-6">
+          <div className=" flex flex-col justify-center items-center text-center py-6 ">
             <img className="justify-center items-center "
               src={PackageImage}
               alt=""
@@ -46,8 +46,8 @@ const Step = () => {
           </div>
         </div>
         <div className=" shadow-2xl">
-          <div className="absolute top-0 right-0 ">
-            <p className="bg-amber-400 ab font-bold p-1 ">01</p>
+          <div className="relative">
+            <p className="bg-[#4F39F6] absolute right-2 top-2 rounded-3xl text-[15px] w-6 h-7 font-semibold p-1 ">03</p>
           </div>
           <div className=" flex flex-col justify-center items-center text-center py-6">
             <img className="justify-center items-center "
