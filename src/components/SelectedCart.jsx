@@ -1,13 +1,14 @@
 import React from "react";
 
 const SelectedCart = ({ cartData }) => {
-  console.log(cartData);
+  const TotalPrice = cartData.reduce((sum, SelectedCart) => sum + SelectedCart.price, 0)
+  console.log(TotalPrice)
   return (
     <div className=" max-w-[1100px] mx-auto shadow-lg py-3">
       <h1 className="font-bold text-2xl">Your cart</h1>
       {cartData.map((SelectedCart) => (
         <div key={SelectedCart.id}>
-          <div>
+          <div className="space-y-6">
             <div className="flex justify-between">
               <div className="flex gap-3">
                 <img
@@ -31,7 +32,7 @@ const SelectedCart = ({ cartData }) => {
         ))}
       <div className="flex justify-between">
               <p>Total</p>
-              <h1 className="font-bold text-2xl">$0</h1>
+              <h1 className="font-bold text-2xl">${TotalPrice}</h1>
             </div>
             <div className="justify-center text-center items-center">
             <button className="w-full bg-[#4F39F6] p-1 rounded-3xl">Proceed to checkout</button>
