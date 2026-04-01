@@ -11,10 +11,10 @@ const TransparetPrice = () => {
       </div>
 
       <div className="grid grid-cols-3 gap-5">
-        <div className="space-y-4 shadow-lg bg-gray-700 p-5 rounded-3xl">
+        <div className="space-y-4 shadow-lg bg-gray-100 p-5 rounded-3xl">
           <div>
             <h1 className="font-bold text-2xl">Stater</h1>
-            <p className="text-[12px] text-[#d9dfe4]">
+            <p className="text-[12px] text-[#705b5b]">
               Perfect for getting started
             </p>
           </div>
@@ -24,12 +24,12 @@ const TransparetPrice = () => {
             </h1>
           </div>
           <div>
-            <p className="text-[12px] text-[#d9dfe4]">
+            <p className="text-[12px] text-[#705b5b]">
               Access to 10 free tools
             </p>
-            <p className="text-[12px] text-[#d9dfe4]">Basic templates</p>
-            <p className="text-[12px] text-[#d9dfe4]">Community support</p>
-            <p className="text-[12px] text-[#d9dfe4]">1 project per month</p>
+            <p className="text-[12px] text-[#705b5b]">Basic templates</p>
+            <p className="text-[12px] text-[#705b5b]">Community support</p>
+            <p className="text-[12px] text-[#705b5b]">1 project per month</p>
           </div>
           <div>
             
@@ -69,10 +69,10 @@ const TransparetPrice = () => {
           </button>
         </div>
 
-        <div className="space-y-4 shadow-lg bg-gray-700 p-5 rounded-3xl">
+        <div className="space-y-4 shadow-lg bg-gray-100 p-5 rounded-3xl">
           <div>
             <h1 className="font-bold text-2xl">Enterprise</h1>
-            <p className="text-[12px] text-[#d9dfe4]">
+            <p className="text-[12px] text-[#705b5b]">
               For teams and businesses
             </p>
           </div>
@@ -82,14 +82,14 @@ const TransparetPrice = () => {
             </h1>
           </div>
           <div>
-            <p className="text-[12px] text-[#d9dfe4]">
+            <p className="text-[12px] text-[#705b5b]">
               Everything in Pro
             </p>
-            <p className="text-[12px] text-[#d9dfe4]">Team collaboration</p>
-            <p className="text-[12px] text-[#d9dfe4]">Custom integrations</p>
-            <p className="text-[12px] text-[#d9dfe4]">Dedicated support</p>
-            <p className="text-[12px] text-[#d9dfe4]">SLA guarantee</p>
-            <p className="text-[12px] text-[#d9dfe4]">Custom branding</p>
+            <p className="text-[12px] text-[#705b5b]">Team collaboration</p>
+            <p className="text-[12px] text-[#705b5b]">Custom integrations</p>
+            <p className="text-[12px] text-[#705b5b]">Dedicated support</p>
+            <p className="text-[12px] text-[#705b5b]">SLA guarantee</p>
+            <p className="text-[12px] text-[#705b5b]">Custom branding</p>
           </div>
           <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-2xl p-2">
             Contact Sales
