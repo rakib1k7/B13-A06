@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 
-const AiCards = ({ premiumAiTools }) => {
+const AiCards = ({ premiumAiTools, cartData, setCartData }) => {
   const [isBuy, setBuy] = useState(false)
   const handleBuy = () => {
     setBuy(true)
+    setCartData([...cartData, premiumAiTools])
   }
+  
 
   return (
     <div className="shadow-lg rounded-2xl p-4 ">
