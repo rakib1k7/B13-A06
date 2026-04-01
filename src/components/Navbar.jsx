@@ -25,7 +25,7 @@ const Navbar = ({ cartData }) => {
           </div>
 
           <p>LogIn</p>
-          <button class="font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold text-white px-5 py-2 rounded-lg shadow hover:opacity-90">
+          <button class="font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white px-5 py-2 rounded-lg shadow hover:opacity-90">
             Get Started
           </button>
         </div>

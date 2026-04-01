@@ -7,6 +7,7 @@ import Rattings from "./components/rattings";
 import Step from "./components/step";
 import SelectedCart from "./components/SelectedCart";
 import Footer from "./components/Footer";
+import TransparetPrice from "./components/TransparetPrice";
 
 const getAiTool = async () => {
   const res = await fetch("/public/AiTools/Aitools.json");
@@ -16,8 +17,8 @@ const getAiTool = async () => {
 function App() {
   const AiPromise = getAiTool();
 
-  const [activeTab, setActiveTab] = useState("Tools")
-  const [cartData, setCartData] = useState([])
+  const [activeTab, setActiveTab] = useState("Tools");
+  const [cartData, setCartData] = useState([]);
   console.log(cartData);
 
   return (
@@ -33,25 +34,33 @@ function App() {
           className="tab"
           aria-label="Products"
           defaultChecked
-          onClick={()=>setActiveTab("Tools")}
+          onClick={() => setActiveTab("Tools")}
         />
         <input
           type="radio"
           name="my_tabs_1"
           className="tab"
-          aria-label= {`Cart ${cartData.length}`}
-          onClick={()=> setActiveTab("Cart")}
-          
+          aria-label={`Cart ${cartData.length}`}
+          onClick={() => setActiveTab("Cart")}
         />
-        
       </div>
       <Suspense>
-        { activeTab === "Tools" && <PremiumTools AiPromise={AiPromise} cartData = {cartData} setCartData = {setCartData} />}
+        {activeTab === "Tools" && (
+          <PremiumTools
+            AiPromise={AiPromise}
+            cartData={cartData}
+            setCartData={setCartData}
+          />
+        )}
       </Suspense>
-      { activeTab === "Cart" && <SelectedCart cartData = {cartData} setCartData = {setCartData} />}
+      {activeTab === "Cart" && (
+        <SelectedCart cartData={cartData} setCartData={setCartData} />
+      )}
 
       <Step />
-      <Footer/>
+      <TransparetPrice />
+
+      <Footer />
     </>
   );
 }
