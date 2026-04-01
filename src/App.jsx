@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import TransparetPrice from "./components/TransparetPrice";
 
 const getAiTool = async () => {
-  const res = await fetch("/public/AiTools/Aitools.json");
+  const res = await fetch("/Aitools.json");
   return res.json();
 };
 
