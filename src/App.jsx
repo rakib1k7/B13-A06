@@ -47,7 +47,7 @@ function App() {
       <Suspense>
         { activeTab === "Tools" && <PremiumTools AiPromise={AiPromise} cartData = {cartData} setCartData = {setCartData} />}
       </Suspense>
-      { activeTab === "Cart" && <SelectedCart cartData = {cartData} />}
+      { activeTab === "Cart" && <SelectedCart cartData = {cartData} setCartData = {setCartData} />}
 
       <Step />
     </>
